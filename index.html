@@ -6,19 +6,19 @@
     </head>
     <body class="bg-askifyBGYello">
         <!-- Navbar -->
-        <section id="Navbar" class="min-w-full bg-gradient-to-b from-askifyBGYello to-transparent">
+        <section id="Navbar" class="sticky top-0 min-w-full bg-gradient-to-b from-askifyBGYello via-askifyBGYello/95 to-transparent">
             <nav class="relative container flex max-w-7xl mx-auto justify-between">
                 <div class="flex items-center">
                     <div class="pl-6 pt-4">
                         <img src="img/askify_logo.png" alt="logo" class="max-w-[40px] md:max-w-[60px]">
                     </div>
                     <div class="pl-4">
-                        <h2 class="text-3sm font-black text-center md:text-xl">ASKIFY</h2>
+                        <h2 class="text-lg font-black text-center md:text-xl">ASKIFY</h2>
                     </div>
                 </div>
-                <div class="flex items-center">
+                <div class="items-center hidden md:flex">
                     <div class="pr-2 md:pr-4">
-                        <h2 class="text-3sm text-center md:text-xl">Pricing</h2>
+                        <h2 class="text-lg text-center md:text-xl">Pricing</h2>
                     </div>
                     <div class="flex bg-black rounded-full items-center justify-center w-[35px] h-[35px] md:w-[40px] md:h-[40px]">
                         <svg class="fill-white w-[20px] h-[20px] md:w-[24px] md:h-[24px]" viewBox="0 0 24 24">
@@ -27,10 +27,75 @@
                         </svg>
                     </div>
                     <div class="pl-2 pr-2 md:pl-4 md:pr-4">
-                        <h2 class="text-3sm text-textPurple text-center md:text-xl">codebulletin@gmail.com</h2>
+                        <h2 class="text-lg text-textPurple text-center md:text-xl">codebulletin@gmail.com</h2>
                     </div>
                 </div>
             </nav>
+        </section>
+
+        <!-- Hero Section -->
+        <section id="hero" class="font-['Open_Sans']">
+            <div class="container flex flex-col-reverse max-w-7xl mx-auto mt-8 p-5 md:flex-row md:mt-24">
+                <div class="flex flex-col md:w-2/5">
+                    <h1 class="text-center text-[2rem] font-extrabold mt-8 mdp:text-[3rem] md:text-left md:mt-0">
+                        Take Screenshot and Notes from Youtube
+                    </h1>
+
+                    <p class="hidden text-left text-[1.2rem] font-medium mt-8 mdp:text-2xl md:block">
+                        <!-- Take Screenshot and Notes from Youtube -->
+                        - Lighting Fast Screenshot and Timestamp <br>
+                        - One click Export to PDF <br>
+                        - Works on <b class="font-extrabold">All Websites</b> <br>
+                    </p>
+
+                    <p class="text-center text-[1.2rem] font-medium mt-8 mdp:text-2xl md:hidden">
+                        <!-- Take Screenshot and Notes from Youtube -->
+                        
+                        1. Lighting Fast Screenshot and Timestamp <br>
+                        2. One click Export to PDF <br>
+                        3. Works on <b class="font-extrabold">All Websites</b> <br>
+                    </p>
+                    
+                    <h2 class="text-center text-[1.5rem] font-black mt-8 mdp:text-[2rem] md:text-left">
+                        It's Free
+                    </h2>
+
+                    <div class="mt-6 md:max-w-[250] mdp:max-w-[300] items-center justify-center">
+                        <button class="flex hover:shadow-md rounded-xl max-w-fit mx-auto">
+                            <div class="inline-flex">
+                                <div class="flex w-[40px] h-[50px] bg-white items-center justify-center rounded-l-lg mdp:w-[50px] mdp:h-[60px] mdp:rounded-l-xl">
+                                    <img src="./img/google_logo.webp" alt="logo" class="object-cover w-[20px] h-[20px] mdp:w-[30px] mdp:h-[30px]">
+                                </div>
+                                <div class="flex bg-googleBlue text-[1rem] items-center justify-center text-left p-3 font-semibold rounded-r-xl text-white mdp:text-lg mdp:p-4">
+                                    Sign in with google
+                                </div>
+                            </div>
+                        </button>
+                    </div>
+
+                    <div class="text-left text-xl font-medium items-center flex flex-row mt-6 mx-auto md:mx-0">
+                        <p>Join</p>
+                        <div class="flex flex-row-reverse items-center">
+                            <div class="-ml-2">
+                                <img src="./img/p4.webp" alt="p4" class="rounded-full object-cover w-[30] h-[30] border-white border-2">
+                            </div>
+                            <div class="-ml-2">
+                                <img src="./img/p3.webp" alt="p3" class="rounded-full object-cover w-[30] h-[30] border-white border-2">
+                            </div>
+                            <div class="-ml-2">
+                                <img src="./img/p2.webp" alt="p2" class="rounded-full object-cover w-[30] h-[30] border-white border-2">
+                            </div>
+                            <div>
+                                <img src="./img/p1.webp" alt="p1" class="rounded-full object-cover w-[30] h-[30] border-white border-2">
+                            </div>
+                        </div>
+                        <p>and 25000+ other users</p>
+                    </div>
+                </div>
+                <div class="flex mt-0 md:w-3/5 md:mt-0">
+                    <img src="./img/hero.png" alt="heroimg" class="min-w-full object-scale-down">
+                </div>
+            </div>
         </section>
     </body>
 </html>

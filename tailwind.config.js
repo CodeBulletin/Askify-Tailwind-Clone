@@ -5,6 +5,7 @@ module.exports = {
             xs: '100px',
             sm: '400px',
             md: '768px',
+            mdp: '900px',
             lg: '1080px',
             xl: '1440px',
             xxl: '2160px'
@@ -15,7 +16,8 @@ module.exports = {
                 askifyGrayishYello: 'hsl(55, 22%, 89%)',
                 askifyBrightYello: 'hsl(62, 55%, 87%)',
                 askifyWhite: 'hsl(55, 52%, 96%)',
-                textPurple: 'hsl(300, 46%, 34%)'
+                textPurple: 'hsl(300, 46%, 34%)',
+                googleBlue: '#3c8fff'
             }
         },
     },
