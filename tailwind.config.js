@@ -17,6 +17,7 @@ module.exports = {
                 askifyBrightYello: 'hsl(62, 55%, 87%)',
                 askifyWhite: 'hsl(55, 52%, 96%)',
                 textPurple: 'hsl(300, 46%, 34%)',
+                textYellow: '#ffb200',
                 googleBlue: '#3c8fff'
             }
         },
